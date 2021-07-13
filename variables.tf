@@ -31,11 +31,15 @@ variable "ui_instance_count" {
 }
 
 variable "server_instance_count" {
-  default = 2
+  default = 1
 }
 
-variable "health_check_path" {
+variable "ui_health_check_path" {
   default = "/"
+}
+
+variable "server_health_check_path" {
+  default = "/actuator/health"
 }
 
 variable "fargate_cpu" {

@@ -1,5 +1,5 @@
 locals {
-  name   = "LinkedWay"
+  name   = "linked-way"
   ui     = "ui"
   server = "server"
 }

@@ -1,4 +1,6 @@
 data "aws_availability_zones" "available" {
+  state         = "available"
+  exclude_names = ["eu-central-1c"]
 }
 
 resource "aws_vpc" "main" {
