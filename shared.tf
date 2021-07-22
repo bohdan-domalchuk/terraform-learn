@@ -1,9 +1,5 @@
 locals {
-  name   = "LinkedWay"
+  name   = "linked-way"
   ui     = "ui"
   server = "server"
-  tags = {
-    owner       = "Domalchuk"
-    environment = "learn"
-  }
 }
